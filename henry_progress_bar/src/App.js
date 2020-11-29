@@ -1,6 +1,7 @@
 import './App.css';
 import ProgressBar from "../src/Component/ProgressBar/ProgressBar";
 import CounterProgressBar from "../src/Component/ProgressBar/CounterProgressBar"
+import FormAndProgressBar from './Component/ProgressBar/FormAndProgressBar';
 
 const testData = [
   { bgColor: "#6a1b9a", completed: 10 },
@@ -19,6 +20,7 @@ function App() {
       ))
       }
       <CounterProgressBar />
+      <FormAndProgressBar />
     </div>
   );
 }
