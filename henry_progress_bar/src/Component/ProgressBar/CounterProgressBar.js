@@ -3,7 +3,6 @@ import ProgressBar from './ProgressBar';
 
 const CounterReact = () => {
     const [counter, setCounter] = useState(0);
-    // const colorOne = '#04395E';
     const colorTwo = '#70A288';
 
 

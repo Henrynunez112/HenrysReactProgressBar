@@ -30,13 +30,13 @@ const FormAndProgressBar = () => {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <input type='text' placeholder="first name" value={firstName} onChange={(e) => {
+                <input type='text' placeholder="first name" value={firstName} required onChange={(e) => {
                     setFirstName(e.currentTarget.value)
                 }} />
-                <input type='text' placeholder="last name" value={lastName} onChange={(e) => {
+                <input type='text' placeholder="last name" value={lastName} required onChange={(e) => {
                     setLastName(e.currentTarget.value)
                 }} />
-                <input type='text' placeholder="email" value={email} onChange={(e) => {
+                <input type='text' placeholder="email" value={email} required onChange={(e) => {
                     setEmail(e.currentTarget.value)
                 }} />
             </form>
