@@ -1,7 +1,7 @@
 import React from 'react';
 
-const ProgressBar = (props) =>{
-    const {bgColor, completed} = props;
+const ProgressBar = ({bgColor, completed}) =>{
+   debugger
     const containerStyles = {
         height: 20,
         width: '100%',
