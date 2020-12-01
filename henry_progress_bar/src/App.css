@@ -9,12 +9,13 @@
   text-align: center;
 }
 
-.fixedBar, .counterBar, .formBar{
+.fixedBar, .counterBar, .formBar, .randomBar{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  border: 2px solid green;
+  border: 2px solid #011936;
+  border-radius: 20px;
   padding: 40px;
   margin: 20px;
 }

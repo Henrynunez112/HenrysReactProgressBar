@@ -2,6 +2,7 @@ import './App.css';
 import ProgressBar from "../src/Component/ProgressBar/ProgressBar";
 import CounterProgressBar from "../src/Component/ProgressBar/CounterProgressBar"
 import FormAndProgressBar from './Component/ProgressBar/FormAndProgressBar';
+import RandomBar from "./Component/ProgressBar/RandomBar"
 
 const testData = [
   { bgColor: "#6a1b9a", completed: 10 },
@@ -28,6 +29,9 @@ function App() {
       </div>
       <div className="formBar">
         <FormAndProgressBar />
+      </div>
+      <div className="randomBar">
+        <RandomBar />
       </div>
     </div>
   );
