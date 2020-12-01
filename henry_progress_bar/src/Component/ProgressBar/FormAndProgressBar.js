@@ -15,7 +15,10 @@ const FormAndProgressBar = () => {
         percent += 25
     }
     if(email){
-        percent += 50
+        let splitArr = email.split("");
+        if(splitArr.includes("@")){
+            percent += 50
+        }
     }
 
     const handleSubmit = (e) => {
@@ -25,7 +28,6 @@ const FormAndProgressBar = () => {
         setFirstName("");
         setLastName("");
     }
-
 
     return (
         <div>
